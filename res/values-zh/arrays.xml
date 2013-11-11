@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_frequency_entries">
+    <item>1分钟</item>
+    <item>10分钟</item>
+    <item>20分钟</item>
+    <item>30分钟</item>
+	</string-array>
+	
+    <string-array name="pref_frequency_values">
+    <item>0</item>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+	</string-array>
+	
+    <string-array name="sensor_names">
+    <item>位置</item>
+    <item>光强</item>
+    <item>加速器</item>
+    <item>WiFi</item>
+    <item>时间</item>
+	</string-array>
+	
+</resources>

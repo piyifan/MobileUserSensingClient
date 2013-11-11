@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_frequency_entries">
+    <item>1 min</item>
+    <item>10 min</item>
+    <item>20 min</item>
+    <item>30 min</item>
+	</string-array>
+	
+    <string-array name="pref_frequency_values">
+    <item>0</item>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+	</string-array>
+	
+    <string-array name="sensor_names">
+    <item>Location</item>
+    <item>Light</item>
+    <item>Accelerater</item>
+    <item>WiFi</item>
+    <item>Timestamp</item>
+	</string-array>
+	
+</resources>

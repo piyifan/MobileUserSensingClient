@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <PreferenceCategory android:title="@string/preference_categary_server_info">
+        <EditTextPreference
+           android:dialogTitle="@string/preference_text_address_dlg_title"
+           android:dialogMessage="@string/preference_text_address_dlg_msg" 
+           android:title="@string/preference_text_address_title" 
+           android:key="pref_address"
+           android:summary="@string/preference_text_address_summary"
+           android:defaultValue="127.0.0.1" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/preference_categary_user_info">
+        <EditTextPreference 
+            android:dialogTitle="@string/preference_text_username_dlg_title"
+            android:dialogMessage="@string/preference_text_username_dlg_msg" 
+            android:title="@string/preference_text_username_title" 
+            android:key="pref_username"
+            android:defaultValue="Null"/>
+        <EditTextPreference 
+            android:dialogTitle="@string/preference_text_password_dlg_title"
+            android:dialogMessage="@string/preference_text_password_dlg_msg" 
+            android:title="@string/preference_text_password_title" 
+            android:key="pref_password"
+            android:inputType="textPassword"
+            android:defaultValue=""/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/preference_categary_sys_info">
+        <ListPreference 
+            android:dialogTitle="@string/preference_text_frequency_dlg_title"
+            android:title="@string/preference_text_frequency_title" 
+            android:key="pref_frequency"
+            android:summary="@string/preference_text_frequency_summary"
+        	android:entries="@array/pref_frequency_entries"    
+        	android:entryValues="@array/pref_frequency_values"
+        	android:defaultValue="@string/pref_list_frequency_def_value"/>
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/preference_categary_user_face">
+	</PreferenceCategory>	
+</PreferenceScreen>

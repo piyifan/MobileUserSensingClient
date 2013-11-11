@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:id="@+id/menu_setting_home"
+          android:icon="@drawable/ic_action_home"
+          android:title="@string/title_activity_main"
+          android:showAsAction="ifRoom|withText" />
+        
+    <item android:id="@+id/menu_setting_sensor_info"
+          android:icon="@drawable/ic_action_sensor_info"
+          android:title="@string/title_activity_sensor_info_show"
+          android:showAsAction="ifRoom|withText" />
+    
+    <item android:id="@+id/menu_setting_comm_stat"
+          android:icon="@drawable/ic_action_comm_stat"
+          android:title="@string/title_activity_comm_stat"
+          android:showAsAction="ifRoom|withText" />
+    
+    <item android:id="@+id/menu_setting_sensor_search"
+          android:icon="@drawable/ic_action_search"
+          android:title="Search"
+          android:showAsAction="ifRoom|withText" />
+    
+     
+</menu>
